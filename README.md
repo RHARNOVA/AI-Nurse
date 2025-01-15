@@ -80,6 +80,7 @@ Feel free to connect with me if you want to help contribute to this project!
 
 Connect with me on:
 🏢 [LinkedIn](https://www.linkedin.com/in/rhar)
+
 ✉️ [Email](rhar526@gmail.com)
 
 ### **URV Program**  
