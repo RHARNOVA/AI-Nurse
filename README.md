@@ -82,7 +82,7 @@ Connect with me on:
 
 🏢 [LinkedIn](https://www.linkedin.com/in/rhar)
 
-✉️ [Email](rhar526@gmail.com)
+✉️ [Email](mailto:rhar526@gmail.com)
 
 ### **URV Program**  
 This project originated as part of the Undergraduate Research Volunteering API Study program at the University of Massachusetts Amherst. It will be developed as a feasibility study until January 31, 2025, with continued development planned post-program completion.  
