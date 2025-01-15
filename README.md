@@ -1,86 +1,86 @@
-# Electronic Liason for Intelligent Triage Automation (E.L.I.T.A.)
+# **Electronic Liaison for Intelligent Triage Automation (E.L.I.T.A.)**
 
-An application built to automate "telephone triages" by using a chatbot, allowing hospitals or clinics to handle preliminary triages of any number of patients at any given moment, 24/7. This seeks to address waiting periods for overworked healthcare providers, disorganized forms and application systems for scheduling, or simply checking details from ones' own patient records. Like customer service chatbots for banks, consumer products, and various other applications, this app will use A.I. to make communication easier and more transparent between patients and their healthcare providers.
+E.L.I.T.A. is an application designed to automate "telephone triages" using a chatbot, enabling hospitals and clinics to handle preliminary triages for unlimited patients 24/7. By addressing challenges like long waiting periods, overburdened healthcare providers, disorganized scheduling systems, and inaccessible patient records, E.L.I.T.A. aims to make communication between patients and healthcare providers easier, faster, and more transparent.  
 
-Check out my video for more details: [Utilizing AI Solutions to Automate Patient Care](https://youtu.be/KCgf3qEAM14?si=t52Of7wzgISqIDbE)
+Similar to customer service chatbots used in banking and other industries, E.L.I.T.A. leverages AI to streamline and enhance patient care.  
 
-## App Features and Design
-### Features
+📹 **Check out my video for more details:** [Utilizing AI Solutions to Automate Patient Care](https://youtu.be/KCgf3qEAM14?si=t52Of7wzgISqIDbE)
 
-The purpose of this application is to streamline communication between patients and their healthcare providers by using an intelligent chatbot which will:
+## **💡 App Features**  
+E.L.I.T.A. streamlines communication between patients and healthcare providers using an intelligent chatbot that can:  
 
-* Determine possible causes for symptoms in patient based on the most current and accurate medical information on pathology
-* Provide empathetic and sound medical advice based on its analysis or answer general questions
-* Handle appointment booking, scheduling, and keeping track of patient related services such as prescriptions
-* Read and update patient records to:
-    * Create a more personalized communication experience for the patient
-    * Communicate to healthcare providers on check-ins, areas of concern, updates on recovery, or any other important information
+- **Analyze Symptoms:** Assess possible causes for patient symptoms using accurate and current medical information.  
+- **Provide Medical Advice:** Offer empathetic, reliable guidance or answer general health-related questions.  
+- **Handle Scheduling:** Manage appointment bookings, scheduling, and other patient services like prescription tracking.  
+- **Access Patient Records:**  
+  - Personalize communication based on patient history.  
+  - Share updates with healthcare providers, including check-ins, areas of concern, or recovery progress.  
 
-### Design:
+## **🛠️ Technical Overview**
 
-This app will be built primarily using [OpenAI's API](https://platform.openai.com/docs/overview), using OpenAI's GPT-4o mini model for the chatbot, as well as using [Redox API](https://redoxengine.com/) to handle scheduling, and Fast Healthcare Interoperability Resources (FHIR) for accessing patient information across various FHIR systems across hospitals.
+### **Front-End**  
+- **React.js:** For a dynamic chatbot interface.  
+- **Tailwind CSS:** For streamlined and modern UI/UX design.  
 
-This will primarily be programmed using ReactJS on the front end and Python's Flask framework on the backend. 
+### **Back-End**  
+- **Flask (Python):** For API integration and server-side functionality.  
 
-## Project Timeline
+### **APIs**  
+- **[OpenAI API](https://platform.openai.com/docs/overview):** Utilizes OpenAI's GPT-4o mini model to power the chatbot.  
+- **[Redox API](https://redoxengine.com/):** Integrates with scheduling systems and Fast Healthcare Interoperability Resources (FHIR) to manage and access patient information.  
 
-**Phase 1**
+## **🗓️ Development Timeline**
 
-For the purposes of the [URV API Study program](#urv), this phase will address the core feature of the project: the AI chatbot.
+### **Phase 1: Chatbot Core Functionality**  
+**Focus:** For the intents of the [URV](#urv-program), primary focus is to develop the core AI chatbot functionality.  
+**Goals:**  
+- Complete chatbot UI.  
+- Integrate OpenAI API into the application.  
+- Create an automated triage experience (Q&A, advice generation).  
 
-Goals: 
-- Completed chatbot UI
-- OpenAI API integration into app
-- Effective automated triage experience with patient (question/answer, providing advice, etc.)
+**Expected Completion:** January 31, 2025  
+**Status:** In Progress  
 
-Expected completion: January 31st, 2025
-Completed: TBD
+### **Phase 2: Patient Record and Scheduling Integration**  
+**Focus:** Simulate access to patient databases and scheduling functionality.  
+**Goals:**  
+- Build a database for patient information storage and updates.  
+- Enable the chatbot to read/write patient files.  
+- Integrate the chatbot with scheduling APIs.  
 
-**Phase 2**
+**Expected Completion:** TBD  
+**Status:** Planned  
 
-Simulating access to patient record databases and scheduling API, as well as data retrieval and modifcation by the AI model
+### **Phase 3: Advanced Triage Techniques**  
+**Focus:** Expand chatbot capabilities with interactive graphics, voice communication, and computer vision.  
+**Goals:**  
+- Implement image-based symptom descriptions using AI-generated graphics.  
+- Enable voice-based conversations between chatbot and patient.  
+- Integrate computer vision for symptom analysis and medical advice.  
 
-Goals:
-- Creating a database for patient information to be stored, read, and modified
-- Chatbot will read/write/store patient files
-- Chatbot will interact with scheduling API
+**Expected Completion:** TBD  
+**Status:** Planned  
 
-Expected completion: TBD
-Completion: TBD
+### **Phase 4: Redox API Integration**  
+**Focus:** Fully integrate Redox API to access live hospital data and ensure compatibility with external healthcare systems.  
+**Goals:**  
+- Configure the chatbot to interact seamlessly with Redox API for real-world applications.  
 
-**Phase 3**
+**Expected Completion:** TBD  
+**Status:** Planned  
 
-Chatbot will have use advanced triage techniques such as producing graphics for the patient to interact with for improved understanding, analyzing images uploaded by the patient, as well as conversing with the patient audibly.
+### **Future Enhancements**  
+New features, suggestions, and ideas will be integrated as the project evolves. These four phases outline the initial scope and complexity, with room for future expansions.  
 
-Goals: 
-- Image generation model provides simple image multiple choice questions for patient to better describe symptoms (will require some training, source and method TBD)
-- Mobile App
-- Chatbot and patient will converse vocally, and clearly
-- Using computer vision to look at and possibly determine symptoms/give sound medical advice (will require training, source and method TBD)
+## **‼️ Additional Project Information**
 
-Expected completion: TBD
-Completion: TBD
+This project is owned and managed by Rayaan Hussain Abdul Rasheed
 
-**Phase 4**
+Feel free to connect with me if you want to help contribute to this project! 
 
-Redox API integration, and reconfiguring model to access and work with data provided by hospitals via Redox.
+Connect with me on:
+🏢 [LinkedIn](https://www.linkedin.com/in/rhar)
+✉️ [Email](rhar526@gmail.com)
 
-Expected completion: TBD
-Completion: TBD
-
-**~**
-
-Features, suggestions, and other ideas will be added to existing phases or will make new phases entirely. All is yet to be determined, however these 4 basic phases give an idea of the projected complexity and scale of the project. 
-
-## Additional Project Information
-
-This project is currently owned and managed by me, however feel free to get in touch if you want to help contribute to this project's development. Check out my [LinkedIn](www.linkedin.com/in/rhar)
-
-### URV
-
-This project was in part created for the Undergraduate Research Volunteering API Study program at the Unviersity of Massachusetts Amherst, for the purpose to be used in a feasibility study. However, development will be pursued post-completion of the program. This will be developed for the purposes of the program until January 31, 2025.
-
-
-
-
-
+### **URV Program**  
+This project originated as part of the Undergraduate Research Volunteering API Study program at the University of Massachusetts Amherst. It will be developed as a feasibility study until January 31, 2025, with continued development planned post-program completion.  
