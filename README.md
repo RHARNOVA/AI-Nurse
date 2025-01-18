@@ -26,7 +26,7 @@ E.L.I.T.A. streamlines communication between patients and healthcare providers u
 - **Flask (Python):** For API integration and server-side functionality.  
 
 ### **APIs**  
-- **[OpenAI API](https://platform.openai.com/docs/overview):** Utilizes GPT-4 to power the chatbot.  
+- **[OpenAI API](https://platform.openai.com/docs/overview):** Utilizes GPT-4 to power the chatbot. DALL-E to be used for powering image generation.
 - **[Redox API](https://redoxengine.com/):** Integrates with scheduling systems and Fast Healthcare Interoperability Resources (FHIR) to manage and access patient information.  
 
 ## **🗓️ Development Roadmap**
