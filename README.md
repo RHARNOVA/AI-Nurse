@@ -26,51 +26,51 @@ E.L.I.T.A. streamlines communication between patients and healthcare providers u
 - **Flask (Python):** For API integration and server-side functionality.  
 
 ### **APIs**  
-- **[OpenAI API](https://platform.openai.com/docs/overview):** Utilizes OpenAI's GPT-4o mini model to power the chatbot.  
+- **[OpenAI API](https://platform.openai.com/docs/overview):** Utilizes GPT-4 to power the chatbot.  
 - **[Redox API](https://redoxengine.com/):** Integrates with scheduling systems and Fast Healthcare Interoperability Resources (FHIR) to manage and access patient information.  
 
-## **🗓️ Development Timeline**
+## **🗓️ Development Roadmap**
 
-### **Phase 1: Chatbot Core Functionality**  
+### **Milestone 1: Chatbot Core Development**  
 **Focus:** For the intents of the [URV](#urv-program), primary focus is to develop the core AI chatbot functionality.  
 **Goals:**  
-- Complete chatbot UI.  
+- Complete the chatbot's user interface (UI).  
 - Integrate OpenAI API into the application.  
-- Create an automated triage experience (Q&A, advice generation).  
+- Create an automated triage experience (e.g., Q&A, advice generation).  
 
 **Expected Completion:** January 31, 2025  
 **Status:** In Progress  
 
-### **Phase 2: Patient Record and Scheduling Integration**  
-**Focus:** Simulate access to patient databases and scheduling functionality.  
+### **Milestone 2: Patient Record and Scheduling Integration**  
+**Focus:** Simulate and integrate patient data management and scheduling APIs.  
 **Goals:**  
-- Build a database for patient information storage and updates.  
-- Enable the chatbot to read/write patient files.  
-- Integrate the chatbot with scheduling APIs.  
+- Develop a database for storing and modifying patient information.  
+- Enable the chatbot to interact with patient records (read/write functionality).  
+- Connect the chatbot with scheduling APIs.  
 
 **Expected Completion:** TBD  
 **Status:** Planned  
 
-### **Phase 3: Advanced Triage Techniques**  
-**Focus:** Expand chatbot capabilities with interactive graphics, voice communication, and computer vision.  
+### **Milestone 3: Advanced Triage Features**  
+**Focus:** Expand the chatbot’s capabilities with interactive and multimedia features.  
 **Goals:**  
-- Implement image-based symptom descriptions using AI-generated graphics.  
-- Enable voice-based conversations between chatbot and patient.  
-- Integrate computer vision for symptom analysis and medical advice.  
+- Implement AI-generated graphics to assist with symptom descriptions.  
+- Enable voice-based communication between the chatbot and patients.  
+- Utilize computer vision for analyzing patient-uploaded images and providing sound medical advice.  
 
 **Expected Completion:** TBD  
 **Status:** Planned  
 
-### **Phase 4: Redox API Integration**  
-**Focus:** Fully integrate Redox API to access live hospital data and ensure compatibility with external healthcare systems.  
+### **Milestone 4: Redox API Integration**  
+**Focus:** Fully integrate the Redox API for live hospital data access and interoperability.  
 **Goals:**  
-- Configure the chatbot to interact seamlessly with Redox API for real-world applications.  
+- Configure the chatbot to interact with real-world hospital systems via the Redox API.  
 
 **Expected Completion:** TBD  
 **Status:** Planned  
 
-### **Future Enhancements**  
-New features, suggestions, and ideas will be integrated as the project evolves. These four phases outline the initial scope and complexity, with room for future expansions.  
+### **Future Milestones**  
+Additional features and improvements will be incorporated as the project evolves. This roadmap outlines the initial scope, with flexibility for further expansions as new requirements or opportunities arise.  
 
 ## **‼️ Additional Project Information**
 
@@ -79,10 +79,9 @@ This project is owned and managed by Rayaan Hussain Abdul Rasheed
 Feel free to connect with me if you want to help contribute to this project! 
 
 Connect with me on:
-
 🏢 [LinkedIn](https://www.linkedin.com/in/rhar)
-
-✉️ [Email](mailto:rhar526@gmail.com)
+✉️ [Email](rhar526@gmail.com)
 
 ### **URV Program**  
 This project originated as part of the Undergraduate Research Volunteering API Study program at the University of Massachusetts Amherst. It will be developed as a feasibility study until January 31, 2025, with continued development planned post-program completion.  
+
