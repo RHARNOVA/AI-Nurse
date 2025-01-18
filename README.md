@@ -1,6 +1,6 @@
 # **Electronic Liaison for Intelligent Triage Automation (E.L.I.T.A.)**
 
-E.L.I.T.A. is an application designed to automate "telephone triages" using a chatbot, enabling hospitals and clinics to handle preliminary triages for unlimited patients 24/7. By addressing challenges like long waiting periods, overburdened healthcare providers, disorganized scheduling systems, and inaccessible patient records, E.L.I.T.A. aims to make communication between patients and healthcare providers easier, faster, and more transparent.  
+E.L.I.T.A. is an application designed to automate "telephone triages" using a chatbot, enabling hospitals and clinics to handle preliminary triages for an unlimited number of patients 24/7. By addressing challenges like long waiting periods, overburdened healthcare providers, disorganized scheduling systems, and inaccessible patient records, E.L.I.T.A. aims to make communication between patients and healthcare providers easier, faster, and more transparent.  
 
 Similar to customer service chatbots used in banking and other industries, E.L.I.T.A. leverages AI to streamline and enhance patient care.  
 
