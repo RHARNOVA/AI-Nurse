@@ -87,7 +87,7 @@ function App() {
                 <Message key={i} model={message} />
               ))}
             </MessageList>
-            <MessageInput placeholder="Ask a question..." onSend={handleSend} />
+            <MessageInput placeholder="Ask ELITA:" onSend={handleSend} />
           </ChatContainer>
         </MainContainer>
       </div>
