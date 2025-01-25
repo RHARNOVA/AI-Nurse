@@ -34,7 +34,7 @@ def chat():
     try:
         messages = [SYSTEM_MESSAGE, {"role": "user", "content": user_message}]
         response = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=messages
         )
         ai_response = response.choices[0].message.content
