@@ -28,9 +28,11 @@ def chat():
     data = request.json
     user_message = data.get("message", "")
 
+    #error handling, patient doesn't send message but system is triggered
     if not user_message:
         return jsonify({"error": "Message content is required"}), 400
 
+    #utilizing OpenAI API to process message, and then output response via jsonify
     try:
         messages = [SYSTEM_MESSAGE, {"role": "user", "content": user_message}]
         response = client.chat.completions.create(
