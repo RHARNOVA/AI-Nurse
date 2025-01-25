@@ -70,7 +70,77 @@ E.L.I.T.A. streamlines communication between patients and healthcare providers u
 **Status:** Planned  
 
 ### **Future Milestones**  
-Additional features and improvements will be incorporated as the project evolves. This roadmap outlines the initial scope, with flexibility for further expansions as new requirements or opportunities arise.  
+Additional features and improvements will be incorporated as the project evolves. This roadmap outlines the initial scope, with flexibility for further expansions as new requirements or opportunities arise.
+
+## **Launch**
+
+### **General Instructions**
+This is your guide to launching the app on your own device!
+
+It's recommended to use a code editor like VSCode for this application, that way you can easily install everything necessary for this project to work. 
+
+1. Download the repository, and open the .zip file.
+
+2. Make sure you have [Node.js](https://nodejs.org/en/download), [ReactJS](https://react.dev/learn/installation), [Python](https://www.python.org/downloads/), as well as npm on your system.
+
+3. Install Vite onto your system by going into a terminal and running:
+ ```npm install -g vite```
+
+4. Go to your file explorer and copy the path of the project folder and type into terminal:
+```cd /folder/path/name```
+
+5. To download all the packages needed for node to run the app:
+
+Type into the terminal:
+```cd client```
+
+Then type: 
+```npm install @chatscope/chat/ui-kit-react```
+
+Finally type:
+```npm install axios```
+
+6. There are two apps you need to run: the [client](#client), and the [server](#server). 
+
+### Client
+
+Make sure you've completed step 5 of the general instructions. All that is left is to make sure is that in the terminal:
+
+To access the project file directory: ```cd /path/to/project/folder/```
+
+To access the "client" directory: ```cd client```
+
+To run, type: ```npm run dev``` and then hit "o" and "ENTER" at the same time (to open in your browser)
+
+In all future instances of using the client app, you simply need to make sure you're in the "client" directory, and type ```npm run dev```
+
+### Server
+
+1. You'll need an OpenAI API key, go to the official OpenAI API developer's page to login and create an API key.
+
+2. Create a .env file and type in OPENAI_API_KEY="(insert API Key)"
+
+3. Put the .env file in the "server" folder
+
+4. To run:
+
+Go into the terminal:
+
+To access the project file directory: ```cd /path/to/project/folder/``` 
+
+To access the "server" directory: ```cd server```
+
+Then type: ```source elita/bin/activate``` to run the virtual environment on your device, you will see "elita" at the left most side of the next terminal line
+
+(if you wish to edit any of the server files, make sure your Python interpreter is "('elita': venv)")
+
+To run, type: ```python3 elita.py``` in your virtual environment
+
+Great! Now you can interact with the webpage!
+
+## Troubleshooting
+
+Coming soon!
 
 ## **‼️ Additional Project Information**
 
